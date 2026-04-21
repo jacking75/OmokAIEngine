@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OmokEngine/OmokEngine.csproj" />
+    <Project Path="src/OmokGame/OmokGame.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/SvgToPng/SvgToPng.csproj" />
+  </Folder>
+</Solution>

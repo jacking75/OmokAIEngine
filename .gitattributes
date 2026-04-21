@@ -1,0 +1,37 @@
+# 텍스트 파일은 자동 줄바꿈 정규화
+* text=auto
+
+# C# 소스
+*.cs        text diff=csharp
+*.csproj    text
+*.slnx      text
+*.props     text
+*.targets   text
+
+# 마크다운/설정
+*.md        text
+*.json      text
+*.yml       text
+*.yaml      text
+*.xml       text
+*.mgcb      text
+
+# Windows 전용 스크립트
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
+*.ps1       text eol=crlf
+
+# Unix 셸 스크립트
+*.sh        text eol=lf
+
+# 바이너리 (diff/merge 비활성)
+*.png       binary
+*.jpg       binary
+*.gif       binary
+*.ico       binary
+*.ttf       binary
+*.otf       binary
+*.xnb       binary
+*.dll       binary
+*.exe       binary
+*.pdb       binary
